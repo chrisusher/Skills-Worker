@@ -8,7 +8,10 @@
     "format": "prettier --write . --ignore-unknown",
     "format:check": "prettier --check . --ignore-unknown",
     "cli": "pnpm --filter @foundry-skill-worker/cli dev",
-    "worker": "pnpm --filter @foundry-skill-worker/worker dev"
+    "worker": "pnpm --filter @foundry-skill-worker/worker dev",
+    "aspire:start": "pnpm --dir aspire-apphost run aspire:start",
+    "aspire:build": "pnpm --dir aspire-apphost run aspire:build",
+    "aspire:dev": "pnpm --dir aspire-apphost run aspire:dev"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

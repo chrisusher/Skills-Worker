@@ -2,3 +2,5 @@ node_modules/
 dist/
 coverage/
 .env
+.aspire/
+.pnpm-store/
