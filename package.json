@@ -1,0 +1,20 @@
+{
+  "name": "foundry-skill-worker-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "check": "pnpm -r check",
+    "format": "prettier --write . --ignore-unknown",
+    "format:check": "prettier --check . --ignore-unknown",
+    "cli": "pnpm --filter @foundry-skill-worker/cli dev",
+    "worker": "pnpm --filter @foundry-skill-worker/worker dev"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "prettier": "^3.9.6",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "packageManager": "pnpm@11.19.0"
+}

@@ -1,0 +1,19 @@
+{
+  "serviceBus": {
+    "fullyQualifiedNamespaceEnv": "SERVICE_BUS_FULLY_QUALIFIED_NAMESPACE",
+    "connectionStringEnv": "SERVICE_BUS_CONNECTION_STRING"
+  },
+  "artifactStorage": {
+    "container": "worker-artifacts",
+    "accountUrlEnv": "ARTIFACT_STORAGE_ACCOUNT_URL",
+    "connectionStringEnv": "ARTIFACT_STORAGE_CONNECTION_STRING"
+  },
+  "skills": [
+    {
+      "id": "report-to-pdf",
+      "handler": "report-to-pdf",
+      "inputQueue": "report-to-pdf-in",
+      "outputQueue": "report-to-pdf-out"
+    }
+  ]
+}

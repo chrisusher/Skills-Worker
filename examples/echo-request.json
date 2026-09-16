@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "requestId": "bc554740-36cf-4a35-95d3-ec21b72b9632",
+  "conversation": {
+    "id": "ticket-42"
+  },
+  "input": {
+    "title": "Incident report",
+    "subtitle": "INC-42",
+    "sections": [
+      {
+        "heading": "Summary",
+        "body": "Authentication errors affected a subset of users."
+      }
+    ]
+  },
+  "parameters": {
+    "source": "local-development"
+  }
+}

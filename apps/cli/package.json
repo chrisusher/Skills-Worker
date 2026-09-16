@@ -1,0 +1,21 @@
+{
+  "name": "@foundry-skill-worker/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "foundry-worker": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.7.0",
+    "@azure/service-bus": "^7.9.5",
+    "@foundry-skill-worker/contracts": "workspace:*",
+    "commander": "^13.1.0"
+  }
+}
